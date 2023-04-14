@@ -25,3 +25,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+.frame {
+  background: hsl(0, 0%, 20%);
+  animation: 2s linear enter;
+}
+@keyframes enter {
+  0% {
+    opacity: 0;
+    filter: brightness(2);
+  }
+}
