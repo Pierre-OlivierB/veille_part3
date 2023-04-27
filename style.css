@@ -35,3 +35,8 @@ body {
     filter: brightness(2);
   }
 }
+/* !--------------------------------------- */
+/** Canvas */
+canvas {
+  background: #121212;
+}

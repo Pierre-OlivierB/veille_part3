@@ -16,3 +16,18 @@ colorPicker.addEventListener("change", (e) => {
   // return = #983a3a
 });
 // *---------------------------------------------------
+// !----------------------------------------------
+// * Canvas
+var canvas = document.getElementById("particlesBackground");
+// console.log(canvas);
+// *Canvas settlement
+var width = window.innerWidth;
+var height = window.innerHeight;
+
+var c = canvas.getContext("2D");
+
+var colors = ["#A020F0", "#5CACEE", "#0FDDAF", "#006888"];
+
+// *
+canvas.width = width;
+canvas.height = height;
