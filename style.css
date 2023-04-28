@@ -17,10 +17,13 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   position: absolute;
+  width: 100%;
 }
 .card {
   height: 50px;
   width: 40%;
+  max-width: 20vw;
+  min-width: 200px;
   background: hsl(240, 100%, 75%);
   margin: 5px;
 }
@@ -45,4 +48,9 @@ canvas {
   background: hsl(0, 0%, 10%);
   /* position: absolute; */
   /* z-index: -1; */
+}
+/* !-------------------------- */
+/* *input */
+input {
+  width: 50%;
 }
